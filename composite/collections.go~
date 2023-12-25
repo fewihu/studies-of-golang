@@ -1,0 +1,13 @@
+package composite
+
+func DemoCollections() {
+	primesArray := int[5]{2,3,5,7,11}
+
+	primesSlice := int[]{2,3,5,7,11}
+	fmt.Println(len(primesSlice))
+	fmt.Println(cap(primesSlice))
+
+
+	randomSlice := make([]int,5,7)
+	randomSlice  = append(randomSlice, 42)
+}
